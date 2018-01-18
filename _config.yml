@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Your Name
+name: Youn Hee Pernling Frödin
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Data Science student at General Assebly NYC
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://avatars1.githubusercontent.com/u/35202657?s=460&v=4
 
 #
 # Flags below are optional
@@ -18,15 +18,15 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
-  facebook:
-  flickr:
-  github: barryclark/jekyll-now
-  instagram:
-  linkedin:
-  pinterest:
+  email: yonipernling@gmail.com
+  facebook: https://www.facebook.com/youn.pernling
+  flickr: https://www.flickr.com/photos/owhynie/
+  github: https://github.com/yhpf
+  instagram: https://www.instagram.com/owhynie/
+  linkedin: https://www.linkedin.com/in/youn-hee-pernling-fr%C3%B6din-9a720516/
+  pinterest: https://www.pinterest.com/pernling/
   rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
+  twitter: https://twitter.com/owhynie?lang=en
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: http:/www.owhynie.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
