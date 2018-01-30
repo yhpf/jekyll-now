@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Data Science Fellow at General Assebly NYC.
+Recently relocated from Stockholm, Sweden to New York.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Follow me on my jurney. It is going to start of very basic but hopefully become a little bit more interesting over time.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[yonipernling@gmail.com](mailto:yonipernling@gmail.com)
