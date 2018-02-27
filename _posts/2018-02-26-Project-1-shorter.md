@@ -7,7 +7,6 @@ categories: projects
 tags:
 ---
 
-# Participation rate ACT and SAT (short version)
 In this project I will look at ACT and SAT participation rates and scores around the United States.<BR />
 It will roughly be about Standardized Testing, Statistical Summaries and Inference.<BR />
 No modelling!
