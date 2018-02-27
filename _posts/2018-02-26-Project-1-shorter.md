@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Participation rate ACT and SAT (short version)
