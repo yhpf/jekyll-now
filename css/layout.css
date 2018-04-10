@@ -299,20 +299,21 @@ ul#nav li.current a { color: #F06000; }
 }
 .bars li {
    position: relative;
-  	margin-bottom: 60px;
-  	background: #ccc;
-  	height: 42px;
+ /*  	margin-bottom: 60px;
+  	background: #ccc; */
+  	height: 28px;
   	border-radius: 3px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
    color: #313131;
 	text-transform: uppercase;
-   letter-spacing: 2px;
-	font-weight: normal;
+   letter-spacing: 2px;	
+   font-weight: normal;
    position: relative;
 	top: -36px;
 }
+/*
 .bar-expand {
    position: absolute;
    left: 0;
@@ -326,7 +327,7 @@ ul#nav li.current a { color: #F06000; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
-
+*/
 .python {
   	width: 65%;
   	-moz-animation: python 2s ease;
