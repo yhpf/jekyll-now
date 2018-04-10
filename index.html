@@ -1,18 +1,644 @@
----
-layout: default
----
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>yhpf</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-      <div class="entry">
-        {{ post.excerpt }}
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="y_favicon.png" >
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+            <li><a class="smoothscroll" href="#hobbies">Hobbies</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Youn Hee <BR /> Pernling Frödin</h1>
+            <h3>I’m an <span>economist</span> and <span>data analyst</span> with an urge to understand and explain the world. I love exploring behaviors and trends, and creating consumer insights. I bring a sense of creativity and curiosity, and I’m always eager to expand my skills.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://github.com/yhpf"><i class="fab fa-github"></i></a></li>
+               <li><a href="https://twitter.com/Owhynie"><i class="fab fa-twitter"></i></a></li>
+               <li><a href="http://www.yhpf.se"><i class="fa fa-globe"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/younhee-pf/"><i class="fab fa-linkedin"></i></a></li>
+               <li><a href="https://medium.com/@yhpf"><i class="fab fa-medium-m"></i></a></li>
+            </ul>
+         </div>
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I'm a Data Analyst and an Economist that loves diving into numbers to find insight. Insights that help to understand the future as well as bringing value to the company and its costumers. I'm a team player that pulls my own weight. Uncovering things that lead to change and improvements drive me. 
+            <BR />
+            I've worked with both internal and external data sources. In most cases, I've had the benefit of being the person how can analyze already gathered data. I've also experienced being responsible for the entire lifecycle of data, from acquisition to actionable insight.
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Social media (see above)</span><br>
+                     <span>Mail: younhee.pf (at) gmail.com</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Linköping University, Sweden</h3>
+                  <p class="info">B.S. in Political Science and Economics<span>&bull;</span> <em class="date">2005-2009</em></p>
+
+                  <p>
+                  Major: Macroeconomics and Finance
+                  <BR />
+                  Political science, Statistics, Law
+                  <BR />
+                  Exchange year 2007-2008: Sungkyunkwan University, South Korea<BR />
+                  Business Administration, American Law, Graphic Design, South Korean studies
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>General Assembly, New York, US</h3>
+                  <p class="info">Data Science Immersive program<span>&bull;</span> <em class="date">2018</em></p>
+
+                  <p>
+                 Data Science Immersive is a 12-week long training program that trains in the latest technologies and to make participants ready for a deep dive into the world of Data Science.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Luleå University of Technology, Sweden</h3>
+                  <p class="info">Web Development 1 & 2<span>&bull;</span> <em class="date">2007-2008</em></p>
+
+                  <p>
+                  Basic XHTML, CSS and script language
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Cornerstone, Sweden</h3>
+                  <p class="info">Microsoft SQL server 2012/2014<span>&bull;</span> <em class="date">2014</em></p>
+
+                  <p>
+                  Querying fundamentals and advanced querying
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Forsbergs Skola, Sweden</h3>
+                  <p class="info">Diploma, Graphic Design - Advanced<span>&bull;</span> <em class="date">2011-2012</em></p>
+
+                  <p>
+                  One year evening class catering to those who want to develop their talents and create a portfolio. This course is a merit for further education, or gives deeper knowledge and inspiration to those who are already working in design.
+                  <BR />
+                  Covering typography, music and paper back covers, brands and logos, advertising, ads and posters, packaging design, advertising design, magazine design, calender design, advertising communication and basic understanding in design programs such as Adobe CS.
+
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Swedish Agency for Government Employers</h3>
+                  <p class="info">Analyst<span>&bull;</span> <em class="date">June 2014 - December 2017</em></p>
+
+                  <p>
+                  • Performed wage statistics analysis and cost analysis.<BR />
+                  • Bespoke custom analysis for the Swedish government.<BR />
+                  • Daily use of Excel and SQL.<BR />
+                  • Project lead in project aiming to make workflows more effective and efficient.<BR />
+                  • Requirements management for a new web based IT analysis
+                  system.<BR />
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Almega</h3>
+                  <p class="info">Wage Statistics Manager<span>&bull;</span> <em class="date">January 2012 - June 2014</em></p>
+
+                  <p>
+                  • Responsible for development and use of wage statistics.<BR />
+                  • Coordinated and performed analysis for the entire company.<BR />
+                  • Areas of analysis include comparative studies of the private and
+                  public sectors, wage development studies as well as gender and how it relates to managerial careers.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Almega Service Contractors</h3>
+                  <p class="info">Industry Analyst<span>&bull;</span> <em class="date">April 2010 - December 2013</em></p>
+
+                  <p>
+                  • Handled enterprise policy questions.<BR />
+                  • Responsible for the yearly report containing development in the
+                  industry and other related analysis.<BR />
+                  • In charge of communications around education and drove the
+                  creation, development and maintenance of our website
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>Some of the skills I possess that are useful in my field. I'm always striving to deepen understandig and to learn new things.  
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+					   <li><span class="bar-expand python"></span><em>Python</em></li>
+                  <li><span class="bar-expand sql"></span><em>SQL</em></li>
+						<li><span class="bar-expand machine_learning"></span><em>Machine Learning</em></li>
+						<li><span class="bar-expand webscraping"></span><em>Webscraping</em></li>
+						<li><span class="bar-expand data_min"></span><em>Data Mining</em></li>
+                  <li><span class="bar-expand data_vis"></span><em>Data Visualization</em></li>
+                  <li><span class="bar-expand hc"></span><em>HTLM+CSS</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Works (more to come very soon...)</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/music.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>The Mood of Music</h5>
+                              <p>Capstone Project</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/superhero.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Superheros</h5>
+                              <p>Data Munging &amp; Visualization</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/y_origami.JPG">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Origami</h5>
+                              <p>Kusudama folding</p>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div> <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-music.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>The Mood of Music</h4>
+			      <p>With NLP and different machine learning methods find the mood of a song and then decide the mood of artists and countries to see if it's suitable to relase an artist and their new song in a specific country.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Project, Linear Regression, Lasso Regressor, Random Forest Regressor, NLP</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/yhpf/capstone" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-superhero.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Superheros</h4>
+			      <p>Statistics and visualization for comparisons between superhero’s from DC comics and superhero’s from Marvel.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Data Munging, Data  Visualization, Superheros</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/yhpf/superheros" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+            <img class="scale-with-grid" src="images/portfolio/modals/m-y_origami.JPG" alt="" />
+
+            <div class="description-box">
+               <h4>Origami</h4>
+               <p>Please have a look at what me and my friends in Sweden fold for <a href="https://www.facebook.com/saramorigami/" target="_blank">Saram Origami</a>.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Origami, Kusidama,  Hobby</span>
+            </div>
+
+            <div class="link-box">
+               <a href="https://www.facebook.com/saramorigami/" target="_blank">Details</a>
+               <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+         </div><!-- modal-03 End -->
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Call-To-Action Section
+   ================================================== -->
+   <section id="call-to-action">
+
+      <div class="row">
+
+         <div class="two columns header-col">
+
+            <h1><span>PORTFOLIO</span></h1>
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2><span class="lead">SEE ANYTHING YOU LIKE?</span></h2>
+            <p><span class="lead">Please get in tuch with me! </span></p>
+
+         </div>
+
+      </div>
+
+   </section> <!-- Call-To-Action Section End-->
+
+
+   <!-- Hobbies Section
+   ================================================== -->
+   <section id="hobbies">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>Travel makes one modest.<BR /> 
+                              You see what a tiny place you occupy in the world.
+                           </p>
+                           <cite>Gustav Flaubert</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>Run often. Run long.<BR />  
+                              But never outrun your joy of running.
+                           </p>
+                           <cite>Julie Isphording</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.
+                           </p>
+                           <cite>Steve Jobs</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Hobbies Section End-->
+
+   <section id="call-to-action">
+
+      <div class="row">
+
+         <div class="two columns header-col">
+
+            <h1><span>HOBBIES</span></h1>
+
+         </div>
+
+         <div class="nine columns main-col">
+
+
+            <p><span class="lead"><u>Traveling</u><BR /> 
+            When me and my husband have a dollar to spare, we are likely to spend it on travelling. Traveling expands the view of the world. (Home picture from New Zealand 2017.) I have been lucky enough to have seen many parts of the world groving up and also in recent years. I hope that I in the future will have the benefit to give my kids the same opportunity. For my next longer journey I would love to visit South America, a continent that I have never visited before. 
+            </span></p>
+
+            <p><span class="lead"><u>Running</u><BR />
+            I have always lived an active life. I have done gymnastics, atheletics and martial art, but then I found running. Running is very peaceful and gives you a lot of time to gather your thoughts. You can choose to challenge yourself if you want to and you do not need that much equipment. My goal is a new PR on the half marathons distance and to discover new beautiful places to go trailrunning.  
+            </span></p>
+
+            <p><span class="lead"><u>Graphic Design and Origami</u><BR />
+            I love creating things! It does not matter whether it is digital, a collage or a specific kusudama. It is way for me to relax and to do something creative. Just plug some good music in and go with the flow.
+            </span></p>
+
+         </div>
+
+      </div>
+
+   </section> 
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+      <div class="row">
+
+         <div class="three columns header-col">
+            <h1><span>Contact</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>Contact Details</h2>
+
+               <p>
+                  <span>Social media (see below)</span><br>
+                  <span>Mail: younhee.pf (at) gmail.com</span>
+               </p>
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+
+            <ul class="social-links">
+               <li><a href="https://github.com/yhpf"><i class="fab fa-github"></i></a></li>
+               <li><a href="https://twitter.com/Owhynie"><i class="fab fa-twitter"></i></a></li>
+               <li><a href="http://www.yhpf.se"><i class="fa fa-globe"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/younhee-pf/"><i class="fab fa-linkedin"></i></a></li>
+               <li><a href="https://medium.com/@yhpf"><i class="fab fa-medium-m"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>  
+               <li>Tweeked by yhpf</li> 
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
+</html>
